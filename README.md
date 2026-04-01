@@ -19,6 +19,10 @@ This package depends on `urban-energy-core` for the `City` object and precompute
 
 This package expects an FSA-level feature table with engineered energy features plus census-style socio-demographic proxies. See [docs/data_contracts.md](docs/data_contracts.md) for the minimum expected columns and output shape conventions.
 
+## Citation
+
+If you use this repository in research, software, or derivative work, please preserve the license notices and cite the project using [CITATION.cff](CITATION.cff).
+
 ## Package layout
 
 ```text
