@@ -15,6 +15,10 @@
 
 This package depends on `urban-energy-core` for the `City` object and precomputed energy analytics tables.
 
+## Data contract
+
+This package expects an FSA-level feature table with engineered energy features plus census-style socio-demographic proxies. See [docs/data_contracts.md](docs/data_contracts.md) for the minimum expected columns and output shape conventions.
+
 ## Package layout
 
 ```text
@@ -44,5 +48,4 @@ conda run -n dsm_qc python -c "import dsm_alignment; print('ok')"
 ## Next cleanup items
 
 - add higher-value behavioral tests for the alignment functions
-- document expected feature columns and output schemas
 - decide whether report templates/assets should remain here or move to a docs/examples layer
